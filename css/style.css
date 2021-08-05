@@ -151,8 +151,7 @@ p {
 }
 
 .bg-overlay {
-  /* background-color: #f16724; */
-  background: #ffffff;
+  background-color: #f16724;
   position: absolute;
   top: 0;
   right: 0;
@@ -162,8 +161,16 @@ p {
   height: 100%;
 }
 
+.text-orange {
+  color: #f16724;
+}
+
+.hero-overlay {
+  background: #f7f7f7;
+}
+
 .text-custom {
-  color: #11a92f;
+  color: #f16724;
 }
 
 .bg-custom {
