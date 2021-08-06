@@ -173,8 +173,25 @@ p {
   color: #f16724;
 }
 
+.bg-orange {
+  background: #f16724 !important;
+}
+
 .bg-custom {
   background-color: #11a92f;
+}
+
+.text-green {
+  color: #11a92f !important;
+}
+
+.border-green {
+  border: 1px solid #11a92f !important;
+}
+
+.text-green:hover {
+  color: white !important;
+  background: #11a92f;
 }
 
 .title-heading {
@@ -519,7 +536,7 @@ p {
 
 @media (min-width: 200px) and (max-width: 768px) {
   .navbar-custom {
-    background-color: #111d38;
+    background-color: #f16724;
     padding: 10px 0px !important;
   }
   .navbar-brand .l-dark {
@@ -533,6 +550,10 @@ p {
   }
   .login-button {
     margin-left: 5px !important;
+  }
+
+  .navbar-custom .navbar-nav li a {
+    color: white !important;
   }
 }
 
@@ -1084,4 +1105,31 @@ p {
     text-align: center;
   }
 }
+
+/*******************************
+            FAQ
+*******************************/
+
+.faq-content .card-header {
+  padding: 0px;
+}
+
+.faq-content .card {
+  border-radius: 6px;
+  border: 1px solid #ececec;
+}
+
+.faq-content .card-header {
+  background-color: transparent;
+  border-bottom: transparent;
+}
+
+.faq-content .btn-link {
+  color: #444444;
+}
+
+.faq-content .btn-link {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
